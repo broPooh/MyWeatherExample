@@ -48,7 +48,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system"/>
                                 <connections>
-                                    <action selector="didTapRefreshButton:" destination="0ET-oS-lfj" eventType="touchUpInside" id="6RX-1N-auQ"/>
+                                    <action selector="refreshButtonClicked:" destination="0ET-oS-lfj" eventType="touchUpInside" id="L1C-9I-uOg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igp-Dt-QRX">

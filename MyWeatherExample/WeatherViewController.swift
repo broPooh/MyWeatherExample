@@ -134,6 +134,9 @@ class WeatherViewController: UIViewController {
         
     }
     
+    @IBAction func refreshButtonClicked(_ sender: UIButton) {
+        checkUserLocationServicesAuthorization()
+    }
 }
 
 
