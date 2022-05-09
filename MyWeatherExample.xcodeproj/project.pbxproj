@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1BDA02DF2828FF0600E75205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02DE2828FF0600E75205 /* AppDelegate.swift */; };
 		1BDA02E12828FF0600E75205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02E02828FF0600E75205 /* SceneDelegate.swift */; };
-		1BDA02E32828FF0600E75205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02E22828FF0600E75205 /* ViewController.swift */; };
 		1BDA02E62828FF0600E75205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA02E42828FF0600E75205 /* Main.storyboard */; };
 		1BDA02E82828FF0800E75205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA02E72828FF0800E75205 /* Assets.xcassets */; };
 		1BDA02EB2828FF0800E75205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA02E92828FF0800E75205 /* LaunchScreen.storyboard */; };
@@ -17,18 +16,19 @@
 		1BDA02F72828FF4700E75205 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1BDA02F62828FF4700E75205 /* SwiftyJSON */; };
 		1BDA02FA2828FF5500E75205 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1BDA02F92828FF5500E75205 /* Kingfisher */; };
 		1BDA03002828FFA000E75205 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02FF2828FFA000E75205 /* Constants.swift */; };
+		1BDA0302282901B100E75205 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA0301282901B100E75205 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BDA02DB2828FF0600E75205 /* MyWeatherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA02DE2828FF0600E75205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BDA02E02828FF0600E75205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BDA02E22828FF0600E75205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BDA02E52828FF0600E75205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BDA02E72828FF0800E75205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDA02EA2828FF0800E75205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDA02EC2828FF0800E75205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDA02FF2828FFA000E75205 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1BDA0301282901B100E75205 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 			children = (
 				1BDA02DE2828FF0600E75205 /* AppDelegate.swift */,
 				1BDA02E02828FF0600E75205 /* SceneDelegate.swift */,
-				1BDA02E22828FF0600E75205 /* ViewController.swift */,
 				1BDA02FF2828FFA000E75205 /* Constants.swift */,
 				1BDA02E42828FF0600E75205 /* Main.storyboard */,
+				1BDA0301282901B100E75205 /* WeatherViewController.swift */,
 				1BDA02E72828FF0800E75205 /* Assets.xcassets */,
 				1BDA02E92828FF0800E75205 /* LaunchScreen.storyboard */,
 				1BDA02EC2828FF0800E75205 /* Info.plist */,
@@ -157,8 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDA02E32828FF0600E75205 /* ViewController.swift in Sources */,
 				1BDA02DF2828FF0600E75205 /* AppDelegate.swift in Sources */,
+				1BDA0302282901B100E75205 /* WeatherViewController.swift in Sources */,
 				1BDA02E12828FF0600E75205 /* SceneDelegate.swift in Sources */,
 				1BDA03002828FFA000E75205 /* Constants.swift in Sources */,
 			);
