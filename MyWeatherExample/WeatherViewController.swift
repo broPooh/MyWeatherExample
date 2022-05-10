@@ -80,30 +80,8 @@ class WeatherViewController: UIViewController {
     
     func fetchWeather(location: CLLocationCoordinate2D) {
         setLocationLabel(location: location)
-        AF.request(Constants.weatherUrl(lat: location.latitude, lon: location.longitude), method: .get)
-            .validate().responseJSON { response in
-            switch response.result  {
-            case .success(let value) :
-                let json = JSON(value)
-                
-                print(json)
-                
-                let temperature = json["main"]["temp"].doubleValue
-                let humidity = json["main"]["humidity"].stringValue
-                let windSpeed = json["wind"]["speed"].stringValue
-                let icon = json["weather"][0]["icon"].stringValue
-                let statusImageURL = "https://openweathermap.org/img/wn/\(icon)@2x.png"
-                
-                let weather = WeatherData(temperature: "\(temperature)",
-                                      humidity: humidity,
-                                      windSpeed: windSpeed,
-                                      imageURL: statusImageURL)
-                
-                self.updateWeatherUI(weatherData: weather)
-                
-            case .failure(let error) :
-                print("error")
-            }
+        WeatherAPIManager.shared.fetchWeather(lat: location.latitude, lon: location.longitude) { code, WeatherData in
+            self.updateWeatherUI(weatherData: WeatherData)
         }
     }
     

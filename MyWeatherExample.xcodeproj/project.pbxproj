@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B63668B2829F99800172A1A /* WeatherAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63668A2829F99800172A1A /* WeatherAPIManager.swift */; };
 		1BDA02DF2828FF0600E75205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02DE2828FF0600E75205 /* AppDelegate.swift */; };
 		1BDA02E12828FF0600E75205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA02E02828FF0600E75205 /* SceneDelegate.swift */; };
 		1BDA02E62828FF0600E75205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA02E42828FF0600E75205 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B63668A2829F99800172A1A /* WeatherAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIManager.swift; sourceTree = "<group>"; };
 		1BDA02DB2828FF0600E75205 /* MyWeatherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA02DE2828FF0600E75205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BDA02E02828FF0600E75205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				1BDA02DE2828FF0600E75205 /* AppDelegate.swift */,
 				1BDA02E02828FF0600E75205 /* SceneDelegate.swift */,
 				1BDA02FF2828FFA000E75205 /* Constants.swift */,
+				1B63668A2829F99800172A1A /* WeatherAPIManager.swift */,
 				1BDA02E42828FF0600E75205 /* Main.storyboard */,
 				1BDA0301282901B100E75205 /* WeatherViewController.swift */,
 				1BDA0307282919D700E75205 /* WeatherData.swift */,
@@ -168,6 +171,7 @@
 				1BDA0302282901B100E75205 /* WeatherViewController.swift in Sources */,
 				1BDA02E12828FF0600E75205 /* SceneDelegate.swift in Sources */,
 				1BDA0308282919D700E75205 /* WeatherData.swift in Sources */,
+				1B63668B2829F99800172A1A /* WeatherAPIManager.swift in Sources */,
 				1BDA03002828FFA000E75205 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
